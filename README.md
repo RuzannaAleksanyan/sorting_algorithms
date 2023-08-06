@@ -6,6 +6,7 @@ This repository contains C++ header files implementing various sorting algorithm
 - [Quick](#Quick)
 - [Selection](#Selection)
 - [How_to_Use](#How_to_Use)
+- [Test](#Test)
 
 #Bubble
 bubble_sort.hpp implements the Bubble Sort algorithm. Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process is repeated until the list is sorted.
@@ -20,3 +21,5 @@ selection_sort.hpp implements the Selection Sort algorithm. Selection Sort repea
 - Include the desired sorting algorithm header in your C++ code.
 - Create a std::vector of the desired type and populate it with the data you want to sort.
 - Call the appropriate sorting function on the vector.
+#Test
+The test file checks the correctness of all functions.
