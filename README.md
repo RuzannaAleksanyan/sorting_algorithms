@@ -1,7 +1,7 @@
 # Sorting Algorithms
 This repository contains C++ header files implementing various sorting algorithms.
 ## Table of Contents
-- [Bubble](Bubble)
+- [Bubble](#Bubble)
 - [Merge](#Merge)
 - [Quick](#Quick)
 - [Selection](#Selection)
