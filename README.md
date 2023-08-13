@@ -5,6 +5,7 @@ This repository contains C++ header files implementing various sorting algorithm
 - [Merge](#Merge)
 - [Quick](#Quick)
 - [Selection](#Selection)
+- [Insertion](#Insertion)
 - [How_to_Use](#How_to_Use)
 - [Test](#Test)
 
@@ -16,6 +17,8 @@ merge_sort.hpp implements the Merge Sort algorithm. Merge Sort is a divide-and-c
 quick_sort.hpp implements the Quick Sort algorithm. Quick Sort selects a pivot element and partitions the array into two sub-arrays, recursively sorting them.
 ## Selection
 selection_sort.hpp implements the Selection Sort algorithm. Selection Sort repeatedly selects the smallest element from the unsorted portion of the array and swaps it with the element at the beginning of the unsorted portion.
+## Insertion
+Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is based on the idea of dividing the input array into two subarrays: a sorted region and an unsorted region. The algorithm iterates through the unsorted region, taking one element at a time and placing it in its correct position within the sorted region. This process continues until the entire array is sorted.
 ## How_to_Use
 - Clone this repository or download the individual header files.
 - Include the desired sorting algorithm header in your C++ code.
