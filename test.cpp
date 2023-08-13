@@ -5,6 +5,7 @@
 #include "merge_sort.hpp"
 #include "quick_sort.hpp"
 #include "selection_sort.hpp"
+#include "insertion_sort.hpp"
 
 // Helper function to check if a vector is sorted
 template <typename T>
@@ -33,6 +34,11 @@ int main() {
     // Test Selection Sort
     std::vector<int> selection_sorted = data;
     selection_sort(selection_sorted);
+    std::cout << "Selection Sort: " << (is_sorted(selection_sorted) ? "Passed" : "Failed") << std::endl;
+
+    //Test Insertion Sort
+    std::vector<int> selection_sorted = data;
+    insertion_sort(selection_sorted);
     std::cout << "Selection Sort: " << (is_sorted(selection_sorted) ? "Passed" : "Failed") << std::endl;
 
     return 0;
