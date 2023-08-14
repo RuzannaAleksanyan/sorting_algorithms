@@ -19,6 +19,10 @@ int partition(std::vector<T>& vec, int start, int end) {
 
 template <typename T>
 int partition(std::vector<T>& vec, int start, int end) {
+    if (arr.empty()) {
+        return;
+    }
+    
     int pivot = vec[start];
     int i = start - 1;
     for(int j = start; j <= end - 1; ++j) {
