@@ -4,6 +4,10 @@
 
 template <typename T>
 void merge_sort(std::vector<T>& vec, int start, int mid, int end) {
+    if (vec.empty()) {
+        return;
+    }
+    
     int first1 = start;
     int last1 = mid;
     int first2 = mid + 1;
