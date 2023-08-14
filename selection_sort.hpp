@@ -4,7 +4,7 @@
 
 template <typename T>
 void selection_sort(std::vector<T>& vec) {
-    if (arr.empty()) {
+    if (vec.empty()) {
         return;
     }
     
