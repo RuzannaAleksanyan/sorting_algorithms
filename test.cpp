@@ -37,9 +37,14 @@ int main() {
     std::cout << "Selection Sort: " << (is_sorted(selection_sorted) ? "Passed" : "Failed") << std::endl;
 
     //Test Insertion Sort
-    std::vector<int> selection_sorted = data;
-    insertion_sort(selection_sorted);
-    std::cout << "Selection Sort: " << (is_sorted(selection_sorted) ? "Passed" : "Failed") << std::endl;
+    std::vector<int> insertion_sorted = data;
+    insertion_sort(insertion_sorted);
+    std::cout << "Insertion Sort: " << (is_sorted(insertion_sorted) ? "Passed" : "Failed") << std::endl;
+
+    //Test Radix Sort
+    std::vector<int> radix_sorted = data;
+    radix_sort(radix_sorted);
+    std::cout << "Radix Sort: " << (is_sorted(radix_sorted) ? "Passed" : "Failed") << std::endl;
 
     return 0;
 }
