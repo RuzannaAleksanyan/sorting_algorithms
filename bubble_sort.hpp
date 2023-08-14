@@ -4,6 +4,10 @@
 
 template <typename T>
 void bubble_sort(std::vector<T>& vec) {
+    if (vec.empty()) {
+        return;
+    }
+    
     bool sorted = false;
 
     for (int i = 0; i < vec.size(); ++i) {
