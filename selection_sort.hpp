@@ -4,6 +4,10 @@
 
 template <typename T>
 void selection_sort(std::vector<T>& vec) {
+    if (arr.empty()) {
+        return;
+    }
+    
     for(int i = 0; i < vec.size(); ++i) {
         int min = i;
         for(int j = i + 1; j < vec.size(); ++j) {
