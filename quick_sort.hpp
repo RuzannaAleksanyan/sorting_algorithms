@@ -19,7 +19,7 @@ int partition(std::vector<T>& vec, int start, int end) {
 
 template <typename T>
 int partition(std::vector<T>& vec, int start, int end) {
-    if (arr.empty()) {
+    if (vec.empty()) {
         return;
     }
     
