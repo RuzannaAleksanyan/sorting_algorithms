@@ -46,5 +46,10 @@ int main() {
     radix_sort(radix_sorted);
     std::cout << "Radix Sort: " << (is_sorted(radix_sorted) ? "Passed" : "Failed") << std::endl;
 
+    //Test Counting Sort
+    std::vector<int> counting_sorted = data;
+    counting_sort(counting_sorted);
+    std::cout << "Counting Sort: " << (is_sorted(counting_sorted) ? "Passed" : "Failed") << std::endl;
+
     return 0;
 }
