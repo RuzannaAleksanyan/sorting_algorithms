@@ -4,6 +4,10 @@
 
 template <typename T>
 void insertion_sort(std::vector<T>& vec) {
+    if (vec.empty()) {
+        return;
+    }
+    
     int i, key, j;
     for (i = 1; i < vec.size(); i++) {
         key = vec[i];
