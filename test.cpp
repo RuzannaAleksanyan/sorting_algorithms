@@ -6,6 +6,7 @@
 // #include "quick_sort.hpp"
 #include "selection_sort.hpp"
 #include "insertion_sort.hpp"
+#include "bucket_sort.hpp"
 
 // Helper function to check if a vector is sorted
 template <typename T>
