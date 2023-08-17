@@ -51,5 +51,10 @@ int main() {
     counting_sort(counting_sorted);
     std::cout << "Counting Sort: " << (is_sorted(counting_sorted) ? "Passed" : "Failed") << std::endl;
 
+    //Test Bucket Sort
+    std::vector<int> bucket_sorted = data;
+    bucket_sort(bucket_sorted);
+    std::cout << "Bucket Sort: " << (is_sorted(bucket_sorted) ? "Passed" : "Failed") << std::endl;
+
     return 0;
 }
