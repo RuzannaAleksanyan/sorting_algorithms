@@ -8,6 +8,7 @@ This repository contains C++ header files implementing various sorting algorithm
 - [Insertion](#Insertion)
 - [Radix](#Radix)
 - [Counting](#Counting)
+- [Bucket](#bucket)
 - [How_to_Use](#How_to_Use)
 - [Test](#Test)
 
@@ -25,6 +26,8 @@ Insertion Sort is a simple sorting algorithm that builds the final sorted array 
 Radix Sort is a non-comparative sorting algorithm that sorts elements by their individual digits or characters. It is particularly efficient for sorting integers  with fixed-length representations.
 ## Counting
 Counting Sort is a sorting algorithm that works well for integers when the range of values is relatively small. It is a non-comparative sorting algorithm that uses a frequency-counting approach to sort elements efficiently.
+## Bucket 
+Bucket sort is a sorting algorithm that divides the input list into a number of equally sized buckets. Each bucket is then sorted individually, either using another sorting algorithm or by recursively applying bucket sort if the range of values within a bucket is too large. Finally, the sorted buckets are concatenated to obtain the sorted output.
 ## How_to_Use
 - Clone this repository or download the individual header files.
 - Include the desired sorting algorithm header in your C++ code.
