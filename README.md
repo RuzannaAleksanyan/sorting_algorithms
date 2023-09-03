@@ -9,7 +9,7 @@ This repository contains C++ header files implementing various sorting algorithm
 - [Radix](#Radix)
 - [Counting](#Counting)
 - [Bucket](#Bucket)
-- [Radix](#Radix)
+- [Heap](#Heap)
 - [How_to_Use](#How_to_Use)
 - [Test](#Test)
 
@@ -29,7 +29,7 @@ Radix Sort is a non-comparative sorting algorithm that sorts elements by their i
 Counting Sort is a sorting algorithm that works well for integers when the range of values is relatively small. It is a non-comparative sorting algorithm that uses a frequency-counting approach to sort elements efficiently.
 ## Bucket 
 Bucket sort is a sorting algorithm that divides the input list into a number of equally sized buckets. Each bucket is then sorted individually, either using another sorting algorithm or by recursively applying bucket sort if the range of values within a bucket is too large. Finally, the sorted buckets are concatenated to obtain the sorted output.
-## Radix
+## Heap
 Heap Sort is a popular in-place sorting algorithm known for its efficiency and guaranteed O(n log n) time complexity. It works by transforming the input array into a binary heap and then repeatedly removing the maximum (for ascending order) or minimum (for descending order) element from the heap until the heap is empty.
 ## How_to_Use
 - Clone this repository or download the individual header files.
