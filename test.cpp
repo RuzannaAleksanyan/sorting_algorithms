@@ -8,6 +8,7 @@
 #include "insertion_sort.h"
 #include "bucket_sort.h"
 #include "heap_sort.h"
+#include "counting_sort.h"
 
 // Helper function to check if a vector is sorted
 template <typename T>
@@ -58,7 +59,12 @@ int main() {
     bucket_sort(bucket_sorted);
     std::cout << "Bucket Sort: " << (is_sorted(bucket_sorted) ? "Passed" : "Failed") << std::endl;
 
-    // Heap Sort
+    //Test Counting Sort
+    std::vector<int> counting_sort = data;
+    counting_sort(counting_sort);
+    std::cout << "Counting Sort: " << (is_sorted(counting_sort) ? "Passed" : "Failed") << std::endl;
+
+    //Test Heap Sort
     const int size = 5;
     int* heap_sort = new int[size];
 
