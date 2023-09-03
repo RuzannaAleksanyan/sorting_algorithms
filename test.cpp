@@ -9,6 +9,7 @@
 #include "bucket_sort.h"
 #include "heap_sort.h"
 #include "counting_sort.h"
+#include "radix_sort.h"
 
 // Helper function to check if a vector is sorted
 template <typename T>
@@ -63,6 +64,11 @@ int main() {
     std::vector<int> counting_sort = data;
     counting_sort(counting_sort);
     std::cout << "Counting Sort: " << (is_sorted(counting_sort) ? "Passed" : "Failed") << std::endl;
+
+    //Test Radix Sort
+    std::vector<int> radix_sort = data;
+    radix_sort(radix_sort);
+    std::cout << "Radix Sort: " << (is_sorted(radix_sort) ? "Passed" : "Failed") << std::endl;
 
     //Test Heap Sort
     const int size = 5;
