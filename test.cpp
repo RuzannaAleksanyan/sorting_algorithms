@@ -57,5 +57,24 @@ int main() {
     bucket_sort(bucket_sorted);
     std::cout << "Bucket Sort: " << (is_sorted(bucket_sorted) ? "Passed" : "Failed") << std::endl;
 
+    // Heap Sort
+    const int size = 5;
+    int* heap_sort = new int[size];
+
+    heap_sort[0] = 4;
+    heap_sort[1] = 6;
+    heap_sort[2] = 7;
+    heap_sort[3] = 5;
+    heap_sort[4] = 9;
+
+    heap_sort(heap_sort, size);
+
+    for(int i = 0; i < size; ++i) {
+        std::cout << heap_sort[i] << " ";
+    }
+    std::cout << std::endl;
+
+    delete[] heap_sort;
+
     return 0;
 }
