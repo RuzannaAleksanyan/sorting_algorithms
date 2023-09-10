@@ -1,15 +1,15 @@
 #include <iostream>
 #include <vector>
 #include <algorithm> // For std::is_sorted
-#include "bubble_sort.h"
-#include "merge_sort.h"
-// #include "quick_sort.h"
-#include "selection_sort.h"
-#include "insertion_sort.h"
-#include "bucket_sort.h"
-#include "heap_sort.h"
-#include "counting_sort.h"
-#include "radix_sort.h"
+#include "bubble_sort.hpp"
+#include "merge_sort.hpp"
+// #include "quick_sort.hpp"
+#include "selection_sort.hpp"
+#include "insertion_sort.hpp"
+#include "bucket_sort.hpp"
+#include "heap_sort.hpp"
+#include "counting_sort.hpp"
+#include "radix_sort.hpp"
 
 // Helper function to check if a vector is sorted
 template <typename T>
